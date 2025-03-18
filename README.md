@@ -41,16 +41,16 @@
 Код можно вставить внутри строки, как тут: `print("hello world")`
 
 А можно вставить целый кусок кода:
-```python
-def pureshka(self, kotletki):
-	self.eat(kotletki)
-	while self.vkusno is True:
-		self.pureshka(kotletki + podlivka)
+```plantuml
+@startuml
+Alice -> Bob
+Bob --> Alice
+@enduml
 ```
 
 ### Таблица
 |  Заголовок 1 | Заголовок 2  |
-| ------------ | ------------ |
+| --- | --- |
 |  Это  |  уже |
 | почти  | Excel  |
 
